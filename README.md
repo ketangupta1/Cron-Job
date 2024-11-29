@@ -19,7 +19,7 @@ How to schedule script using cron job.
 ## Access the cron table. Use the following command to open the cron table for editing
     crontab -e
 
--  * * * * *  command to execute
+- ``` * * * * *  command to execute
    ┬ ┬ ┬ ┬ ┬
    │ │ │ │ │
    │ │ │ │ │
@@ -27,7 +27,7 @@ How to schedule script using cron job.
    │ │ │ └────────── month (1 - 12)
    │ │ └─────────────── day of month (1 - 31)
    │ └──────────────────── hour (0 - 23)
-   └───────────────────────── min (0 - 59)
+   └───────────────────────── min (0 - 59) ```
 
 - Command to write Hello in output.txt in a file every minute:
 
